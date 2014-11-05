@@ -1,3 +1,7 @@
+# my custom
+*.classpath
+*.prefs
+
 *.py[cod]
 
 # C extensions

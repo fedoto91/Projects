@@ -12,11 +12,12 @@ package findPi;
 
 public class Main {
 
+	static final String PI = "3.14159265358979323846264338327950288419";
+	
 	public static void main(String[] args)
 	{
 		int nthDigit = Integer.parseInt(args[0]);
 		
-		final String PI = "3.14159265358979323846264338327950288419";
 		String result = "";
 		
 		if (nthDigit == 0)
